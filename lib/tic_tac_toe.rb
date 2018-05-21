@@ -83,6 +83,6 @@ def play (board)
   puts "What is your next move?"
   player_choice = gets.strip
   until over?(board) do
-    
+    turn(board)
   end
 end
