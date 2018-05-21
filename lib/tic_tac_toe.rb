@@ -80,8 +80,4 @@ def winner (board)
 end
 
 def play (board)
-  puts ""
-  9.times do
-    turn (board)
-  end
 end
