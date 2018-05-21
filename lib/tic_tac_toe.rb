@@ -79,6 +79,8 @@ def winner (board)
   board[won?(board)[0]] if won?(board)
 end
 
-def play
-  
+def play (board)
+  9.times do
+    turn (board)
+  end
 end
